@@ -68,12 +68,12 @@ Consultar, via API, o `Status__c` e `SLA_Met__c` de um Case Request.
 ### Passos:
 
 1. Obtenha o ID de um `Case_Request__c` existente.
-2. Realize uma requisição GET para: /services/apexrest/caserequestapi/{Id}
+2. Realize uma requisição GET para: /services/apexrest/CasesRequests/{Id}
 
 ### 🔧 Teste usando Workbench:
 
 1. Acesse: `Utilities > REST Explorer`
-2. No campo **Endpoint**, insira: /services/apexrest/caserequestapi/{Id}
+2. No campo **Endpoint**, insira: /services/apexrest/CasesRequests/{Id}
 3. Selecione o método: `GET`
 4. Clique em **Execute**
 5. Valide o retorno no painel de resposta
